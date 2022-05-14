@@ -1,11 +1,17 @@
 # mackeys
 This project gives you mac-like key bindings on a Linux desktop environment and is effectively a fork of https://github.com/canadaduane/meta-mac.
 
+The key remapping solution that this project depends on is the excellent https://github.com/rvaiya/keyd.
+
 Assuming you have a standard-ish PC style keyboard in which the keyboard layout looks something like:
+```
 ctrl | windows key (aka super key) | alt (aka left-alt or lalt) | spacebar | alt (right-alt) | fn | ctrl
+```
 
 Thes tool remaps your key bindings into the following virtual keyboard layout:
+```
 ctrl | alt (aka left-alt or lalt or opt) | cmd | spacebar | alt | fn | windows key (aka super key)
+```
 
 Key bindings:
 ```
