@@ -23,13 +23,17 @@ Key bindings:
 | paste                                          | lalt-v                   | cmd-v                   | ctrl-v                  |
 | move cursor left one word                      | win-left                 | lalt-left               | ctrl-left               |
 | move cursor right one word                     | win-right                | lalt-right              | ctrl-right              |
+| move cursor to top of file                     | lalt-up                  | cmd-up                  | ctrl-home               |
+| move cursor to bottom of file                  | lalt-down                | cmd-down                | ctrl-end                |
 | move cursor to beginning of line               | lalt-left                | cmd-left                | home                    |
 | move cursor to end of line                     | lalt-right               | cmd-right               | end                     |
 | select/highlight one word to the left          | win-shift-left           | lalt-shift-left         | ctrl-shift-left         |
 | select/highlight one word to the right         | win-shift-right          | lalt-shift-right        | ctrl-shift-right        |
-| select/highlight to beginning of line          | lalt-shift-left          | cmd-shift-left          | shift-home              |
 | delete one word to the left                    | win-backspace            | lalt-backspace          | ctrl-backspace          |
 | delete one word to the right                   | win-delete               | lalt-delete             | ctrl-delete             |
+| select/highlight to top of file                | lalt-shift-up            | cmd-shift-up            | ctrl-shift-home         |
+| select/highlight to bottom of file             | lalt-shift-down          | cmd-shift-down          | ctrl-shift-end          |
+| select/highlight to beginning of line          | lalt-shift-left          | cmd-shift-left          | shift-home              |
 | select/highlight to end of line                | lalt-shift-right         | cmd-shift-right         | shift-end               |
 | delete current line to the left of the cursor  | lalt-backspace           | cmd-backspace           | ctrl-shift-backspace    |
 | delete current line to the right of the cursor | lalt-delete              | cmd-delete              | ctrl-shift-delete       |
