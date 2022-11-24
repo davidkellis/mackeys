@@ -11,5 +11,6 @@ rm -rf ./keyd
 sudo cp default.conf /etc/keyd/default.conf
 sudo chmod 644 /etc/keyd/default.conf
 
+sudo systemctl stop keyd
 sudo systemctl enable keyd
 sudo systemctl start keyd
