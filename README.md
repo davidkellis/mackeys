@@ -1,4 +1,7 @@
 # mackeys
+
+This prjoect has been superseded by https://github.com/davidkellis/mackeys2. I am no longer using this project day to day.
+
 This project gives you mac-like key bindings on a Linux desktop environment and is effectively a fork of https://github.com/canadaduane/meta-mac.
 
 The key remapping solution that this project depends on is the excellent https://github.com/rvaiya/keyd.
@@ -15,7 +18,7 @@ ctrl | alt (aka left-alt or lalt or opt) | cmd | spacebar | alt | fn | windows k
 
 Key bindings:
 ```
-| Shortcut                                       | Physical Key Combination | Virtual Key Combination | Emitted Key Combination | Note   
+| Shortcut                                       | Physical Key Combination | Virtual Key Combination | Emitted Key Combination | Note
 =================================================================================================================================================================================================================================
 | app launcher (spotlight search)                | lalt-space               | cmd-space               | super-/                 | Ensure there is a keyboard shortcut in Gnome for Super-/ to "Launch and switch applications"
 | cut                                            | lalt-x                   | cmd-x                   | ctrl-x                  |
